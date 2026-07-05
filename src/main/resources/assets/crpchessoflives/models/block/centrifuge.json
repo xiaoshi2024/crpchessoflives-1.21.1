@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "crpchessoflives:block/centrifuge_top_bottom",
+    "east": "crpchessoflives:block/centrifuge_side",
+    "north": "crpchessoflives:block/centrifuge_side",
+    "particle": "crpchessoflives:block/centrifuge_side",
+    "south": "crpchessoflives:block/centrifuge_side",
+    "up": "crpchessoflives:block/centrifuge_top_bottom",
+    "west": "crpchessoflives:block/centrifuge_side"
+  }
+}

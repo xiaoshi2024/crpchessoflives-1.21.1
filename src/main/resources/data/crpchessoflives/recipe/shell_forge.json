@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "DND",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_block"
+    },
+    "D": {
+      "item": "crpchessoflives:dna"
+    },
+    "N": {
+      "item": "minecraft:ancient_debris"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "crpchessoflives:shell_forge"
+  }
+}

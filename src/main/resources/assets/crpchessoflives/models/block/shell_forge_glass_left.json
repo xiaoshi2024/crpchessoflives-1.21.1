@@ -1,0 +1,37 @@
+{
+	"render_type": "minecraft:cutout",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "crpchessoflives:block/shell_forge"
+	},
+	"elements": [
+		{
+			"name": "glass1left",
+			"from": [1, 1, 1.6],
+			"to": [5.3, 31, 2.6],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [1.1, 0, 1.6]},
+			"faces": {
+				"north": {"uv": [7.375, 4, 7.875, 7.75], "texture": "#0"},
+				"east": {"uv": [3, 7.5, 3.125, 11.25], "texture": "#0"},
+				"south": {"uv": [0, 7.5, 0.5, 11.25], "texture": "#0"},
+				"west": {"uv": [3.125, 7.5, 3.25, 11.25], "texture": "#0"},
+				"up": {"uv": [6.125, 2.375, 5.625, 2.25], "texture": "#0"},
+				"down": {"uv": [6.125, 2.375, 5.625, 2.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "glass2left",
+			"from": [5, 1, 0],
+			"to": [8, 31, 1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, 0, 0]},
+			"faces": {
+				"north": {"uv": [2.25, 7.5, 2.625, 11.25], "texture": "#0"},
+				"east": {"uv": [3.75, 7.5, 3.875, 11.25], "texture": "#0"},
+				"south": {"uv": [2.625, 7.5, 3, 11.25], "texture": "#0"},
+				"west": {"uv": [3.875, 7.5, 4, 11.25], "texture": "#0"},
+				"up": {"uv": [6, 3.125, 5.625, 3], "texture": "#0"},
+				"down": {"uv": [6, 3.125, 5.625, 3.25], "texture": "#0"}
+			}
+		}
+	]
+}

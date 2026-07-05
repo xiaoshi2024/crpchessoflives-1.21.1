@@ -1,0 +1,7 @@
+@ParametersAreNonnullByDefault
+@FieldsAndMethodsAreNonnullByDefault
+package com.xiaoshi2022.crpchessoflives.clone.blocks;
+
+import com.xiaoshi2022.crpchessoflives.clone.utils.FieldsAndMethodsAreNonnullByDefault;
+
+import javax.annotation.ParametersAreNonnullByDefault;

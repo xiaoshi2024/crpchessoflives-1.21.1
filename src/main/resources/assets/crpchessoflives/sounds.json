@@ -1,0 +1,8 @@
+﻿{
+  "flamethrower": {
+    "sounds": [
+      "crpchessoflives:flamethrower"
+    ],
+    "subtitle": "subtitles.crpchessoflives.flamethrower"
+  }
+}

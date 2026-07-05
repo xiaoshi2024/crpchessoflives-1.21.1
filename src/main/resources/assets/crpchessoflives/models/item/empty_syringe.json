@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "crpchessoflives:item/empty_syringe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "crpchessoflives:extracting": 1,
+        "crpchessoflives:extracting_progress": 0.1
+      },
+      "model": "crpchessoflives:item/blood_syringe_0"
+    },
+    {
+      "predicate": {
+        "crpchessoflives:extracting": 1,
+        "crpchessoflives:extracting_progress": 0.3
+      },
+      "model": "crpchessoflives:item/blood_syringe_1"
+    },
+    {
+      "predicate": {
+        "crpchessoflives:extracting": 1,
+        "crpchessoflives:extracting_progress": 0.5
+      },
+      "model": "crpchessoflives:item/blood_syringe_2"
+    },
+    {
+      "predicate": {
+        "crpchessoflives:extracting": 1,
+        "crpchessoflives:extracting_progress": 0.7
+      },
+      "model": "crpchessoflives:item/blood_syringe_3"
+    }
+  ]
+}

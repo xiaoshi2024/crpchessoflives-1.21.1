@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "package": "com.xiaoshi2022.crpchessoflives.clone.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinCamera",
+    "MixinEntityRenderDispatcher"
+  ],
+  "mixins": [
+    "MixinServerPlayer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  },
+  "minVersion": "0.8.5"
+}
